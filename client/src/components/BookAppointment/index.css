@@ -1,0 +1,86 @@
+
+.appointment-form input.form-control {
+  background-color: #ffffff !important; 
+  color: #000;                          
+  border: 1px solid #ced4da;           
+  box-shadow: none;                    
+}
+.appointment-container{
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    background-color: #ffffff;
+
+    min-height:100vh;
+    width: 100vw;
+    max-width: 480px; 
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+}
+@media screen and (min-width:768px){
+    .appointment-container{
+        max-width: 520px; 
+    }
+}
+@media screen and (min-width:768px){
+    .appointment-container{
+        max-width: 640px;  
+    }
+}
+.book-appointment-heading{
+    font-family: 'Roboto';
+    font-size:28px;
+    color:black;
+    font-weight: 700;
+    text-align: center;
+    line-height:36px;
+}
+.label{
+    font-family:"Roboto";
+    font-size:14px;
+    color:black;
+    font-weight:400;
+    margin-top: 12px;
+}
+@media screen and (Min-width:768px){
+    .label{
+        font-size: 18px;
+    }
+}
+.confirmation-container{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+@media screen and (min-width:768px){
+    .confirmation-container{
+        margin-left: 50px;
+    }
+}
+.confirmation-heading{
+    font-family: 'Roboto';
+    font-size: 28px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+@media screen and (min-width:768px){
+    .confirmation-heading{
+        font-size: 38px;
+    }
+}
+.confirmation-para{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}
+@media screen and (min-width:768px){
+    .confirmation-para{
+        font-size: 22px;
+    }
+}
