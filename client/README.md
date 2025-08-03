@@ -1,12 +1,54 @@
-# React + Vite
+# Title
+Healthcare Appointment Booking Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objective
+To build a user-friendly and responsive web application for booking healthcare appointments, enabling users to view doctor profiles, check their availability, and schedule appointments through an intuitive interface.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
 
-## Expanding the ESLint configuration
+Link: 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+React, React Hooks, Bootstrap
+
+## Setup Instructions
+1) Create Project Directory: mkdir Healthcare Appointment Booking Interface
+2) Navigate to that folder: cd Healthcare Appointment Booking Interface
+3) Inside Healthcare Appointment Booking Interface, create another directory: mkdir client
+4) Navigate to that folder: cd client
+5) Run this command: npm create vite@latest . -- --template react
+6) Install the necessary dependencies: npm install react-router-dom@5 bootstrap@5.3.3
+7) Run the dev server: npm run dev
+
+## Nice to have feature
+## Feature: Find Doctor by Symptoms
+This feature enables users to search for doctors based on their health symptoms, without needing to know medical terms or specializations.
+
+# How It Works
+* Users can enter symptoms like “headache”, “skin rash”, or “chest pain” into the search bar.
+
+* The system maps these symptoms to the appropriate doctor specialization (e.g., Psychiatrist, Dermatologist, Cardiologist).
+
+* Based on this mapping, a list of relevant doctors is shown to the user for quick appointment booking.
+
+# Purpose
+* Makes the app more accessible to non-medical users.
+
+* Reduces confusion in selecting the right doctor.
+
+* Helps users receive timely care by directing them to appropriate specialists.
+
+## push the code to Git using the following commands
+* git init
+* git remote add origin https://github.com/Haripriya866/Healthcare-Appointment-Booking-Interface.git
+* git add -A
+* git commit -m "Healthcare Appointment Booking Interface"
+* git branch -M main
+* git push -u origin main
+
+## Deployment
+Choose a Platform: Select a deployment platform like Vercel
+
+## Pages
+LandingPage, DoctorProfilePage, BookAppointment 
