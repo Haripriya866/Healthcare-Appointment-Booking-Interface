@@ -7,7 +7,7 @@ To build a user-friendly and responsive web application for booking healthcare a
 
 ## Demo
 
-Link: 
+Link: https://healthcare-appointment-booking-inte-sigma.vercel.app
 
 ## Tech Stack
 React, React Hooks, Bootstrap
