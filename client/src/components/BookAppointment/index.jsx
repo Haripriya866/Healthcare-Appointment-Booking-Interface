@@ -32,7 +32,7 @@ const BookAppointment=()=>{
       <div className="confirmation-message text-center confirmation-container mt-5">
         <h4 className='confirmation-heading'>Appointment Confirmed!</h4>
         <p className='confirmation-para'>Thank you, {formData.name}. We’ve scheduled your appointment for:</p>
-        <strong>{formData.datetime}</strong>
+        <strong>{formData.date}</strong>
       </div>
     );
   }
