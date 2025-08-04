@@ -2,7 +2,7 @@
 Healthcare Appointment Booking Interface
 
 ## Objective
-To build a user-friendly and responsive web application for booking healthcare appointments, enabling users to view doctor profiles, check their availability, and schedule appointments through an intuitive interface.
+To build a user-friendly and responsive web application for booking healthcare appointments, enabling users to search by doctor name, view doctor profiles, check their availability, and schedule appointments through an intuitive interface.
 
 
 ## Demo
